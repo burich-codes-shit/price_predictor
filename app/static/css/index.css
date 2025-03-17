@@ -1,0 +1,59 @@
+body {
+    background-color: #000000; /* Черный цвет фона */
+    font-family: 'Courier New', monospace; /* Шрифт в стиле "хакера" */
+}
+
+.container {
+    display: flex;
+    height: 100vh; /* Высота контейнера на всю высоту экрана */
+}
+
+#result {
+    text-align: left;
+}
+
+.left {
+    font-size: 40px;
+    flex: 1; /* Растягивает элемент на доступную ширину */
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+    background-color: rgba(0, 0, 0, 0.8); /* Темный полупрозрачный фон */
+    color: #2ecc71; /* "Хакерский" зеленый цвет текста */
+    border: 2px solid #2ecc71; /* Зеленая окантовка */
+    border-radius: 5px;
+    text-align: center;
+}
+
+.drag-drop_area {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 150px;
+    border: 3px dashed #2ecc71;
+    border-radius: 3px;
+    margin: 50px;
+    display: inline-block;
+}
+
+.drag-drop_area.hover {
+    background-color: #0a8f0e; /* Цвет фона при наведении */
+    border-color: #0a8f0e; /* Цвет рамки при наведении */
+}
+
+.right {
+    font-size: 40px;
+    flex: 1; /* Растягивает элемент на доступную ширину */
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: rgba(0, 0, 0, 0.8); /* Темный полупрозрачный фон */
+    color: #2ecc71; /* "Хакерский" зеленый цвет текста */
+    border: 2px solid #2ecc71; /* Зеленая окантовка */
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+
